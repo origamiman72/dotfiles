@@ -1,4 +1,4 @@
-# dotfiles
+# Origamiman72's dotfiles
 My personal Linux dotfiles
 
 ![Screenshot](https://github.com/origamiman72/dotfiles/blob/master/Screenshot.jpg)
