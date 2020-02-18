@@ -3,25 +3,25 @@ My personal Linux dotfiles
 
 ![Screenshot](https://github.com/origamiman72/dotfiles/blob/master/Screenshot.jpg)
 
-Machine: matebook x pro i7/16gb
+**Machine**: matebook x pro i7/16gb
 
-**OS**: Manjaro
+**OS**: [Manjaro](https://manjaro.org/)
 
-**WM**: i3
+**WM**: [i3-gaps](https://github.com/Airblader/i3)
 
-**Terminal**: kitty
+**Terminal**: [kitty](https://github.com/kovidgoyal/kitty)
 
-**Notifications**: dunst
+**Notifications**: [dunst](https://github.com/dunst-project/dunst)
 
-**Shell**: fish 
+**Shell**: [fish](https://github.com/fish-shell/fish-shell) 
 
-**Editor**: neovim
+**Editor**: [neovim](https://github.com/neovim/neovim)
 
-**Bar**: polybar
+**Bar**: [polybar](https://github.com/polybar/polybar)
 
-**Lockscreen**: betterlockscreen
+**Lockscreen**: [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)
 
-**Greeter**: sddm (for now)
+**Greeter**: [sddm](https://github.com/sddm/sddm) (for now)
 
 ## Credits
 [WillPower3309](https://github.com/WillPower3309/awesome-dotfiles)
@@ -29,3 +29,6 @@ Machine: matebook x pro i7/16gb
 [adi1090x](https://github.com/adi1090x/polybar-themes)
 
 and probably others too, will be updated
+
+### Aside
+What is my wallpaper of? I think it looks like a person in the desert but my roommate thought it was a bird in the sky. If you think you know please tell me.
