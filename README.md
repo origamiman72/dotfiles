@@ -13,7 +13,9 @@ Shell: fish
 
 Editor: neovim
 
-Bar: polybar     
+Bar: polybar
+
+Lockscreen: betterlockscreen
 
 ## Credits
 [WillPower3309](https://github.com/WillPower3309/awesome-dotfiles)
