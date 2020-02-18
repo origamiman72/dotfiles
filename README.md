@@ -9,6 +9,8 @@ My personal Linux dotfiles
 
 **WM**: [i3-gaps](https://github.com/Airblader/i3)
 
+**Compositor**: [picom](https://github.com/yshui/picom)
+
 **Terminal**: [kitty](https://github.com/kovidgoyal/kitty)
 
 **Notifications**: [dunst](https://github.com/dunst-project/dunst)
