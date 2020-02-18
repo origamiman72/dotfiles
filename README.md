@@ -3,6 +3,8 @@ My personal dotfiles
 
 ![Screenshot](https://github.com/origamiman72/dotfiles/blob/master/Screenshot.jpg)
 
+Machine: matebook x pro i7/16gb
+
 WM: i3
 
 Terminal: kitty
