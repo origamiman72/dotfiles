@@ -215,3 +215,10 @@ bindsym $mod+Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pic
 bindsym Control+Print exec gnome-screenshot -i
 
 exec --no-startup-id redshift -l 37.871593:-122.272743
+
+# Window Rules
+for_window [class="TelegramDesktop"] move container to workspace $ws10
+for_window [class="Slack"] move container to workspace $ws10
+for_window [class="Discord"] move container to workspace $ws10
+
+set $ws10 "10:=:comm"

@@ -26,4 +26,6 @@ set nonumber relativenumber
 nnoremap ss i<space><esc>
 
 let g:vim_markdown_folding_disabled = 1
+hi StatusLine cterm=inverse ctermbg=white ctermfg=16
 
+hi ExtraWhitespace ctermbg=white

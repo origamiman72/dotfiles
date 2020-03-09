@@ -8,8 +8,8 @@ SETUVAR Z_EXCLUDE:/home/ahuja
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
-SETUVAR _fish_abbr_Calvisitor:sudo\x20netctl\x20start\x20wlp60s0\x2dCalvisitor
-SETUVAR _fish_abbr_ab2:sudo\x20netctl\x20start\x20wlp60s0\x2dAirbears2
+SETUVAR _fish_abbr_ab2:nmcli\x20con\x20up\x20\x22AirBears2\x22
+SETUVAR _fish_abbr_calvisitor:nmcli\x20con\x20up\x20\x22CalVisitor\x22
 SETUVAR _fish_abbr_vim:nvim
 SETUVAR fish_color_autosuggestion:5f87ff
 SETUVAR fish_color_cancel:normal
