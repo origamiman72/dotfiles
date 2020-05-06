@@ -17,7 +17,7 @@ font pango:monospace 8
 
 # Window borders
 for_window [class=".*"] border pixel 3
-bindcode $mod+48 exec ~/.i3/bin/i3-toggle-border
+bindcode $mod+/ exec ~/.i3/bin/i3-toggle-border
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).

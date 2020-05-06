@@ -3,11 +3,12 @@ let &packpath = &runtimepath
 source ~/.vimrc
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'jiangmiao/auto-pairs'
-"Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+"Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
 Plug 'scrooloose/nerdtree'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug '907th/vim-auto-save'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 " NERDTree on ctrl+n
 let NERDTreeShowHidden=1
