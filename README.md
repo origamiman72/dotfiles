@@ -31,6 +31,3 @@ My personal Linux dotfiles
 [adi1090x](https://github.com/adi1090x/polybar-themes)
 
 and probably others too, will be updated
-
-### Aside
-What is my wallpaper of? I think it looks like a person in the desert but my roommate thought it was a bird in the sky. If you think you know please tell me.
