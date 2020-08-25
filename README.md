@@ -3,7 +3,7 @@ My personal Linux dotfiles
 
 ![Screenshot](https://github.com/origamiman72/dotfiles/blob/desktop/screenshot.png)
 
-**Machine**: matebook x pro i7/16gb
+**Machine**: i7-4790k GTX 970 16gb RAM
 
 **OS**: [Manjaro](https://manjaro.org/)
 
