@@ -1,0 +1,12 @@
+WARNING: No icon found in path: 'dialog-information'
+WARNING: BadAccess (attempt to access private resource denied)
+WARNING: BadAccess (attempt to access private resource denied)
+WARNING: Unable to grab key 'ctrl+grave'.
+CRITICAL: Cannot acquire 'org.freedesktop.Notifications': Name is acquired by 'dunst' with PID '98893'.
+WARNING: BadAccess (attempt to access private resource denied)
+WARNING: BadAccess (attempt to access private resource denied)
+WARNING: Unable to grab key 'ctrl+grave'.
+CRITICAL: Cannot acquire 'org.freedesktop.Notifications': Name is acquired by 'dunst' with PID '98893'.
+WARNING: No icon found in path: 'dialog-information'
+WARNING: No icon found in path: 'dialog-information'
+X connection to :0 broken (explicit kill or server shutdown).
