@@ -5,7 +5,7 @@ My personal Linux dotfiles
 
 **Machine**: i7-4790k GTX 970 16gb RAM
 
-**OS**: [Arch](https://www.archlinux.org/)
+**OS**: [Arch btw](https://www.archlinux.org/)
 
 **WM**: [i3-gaps](https://github.com/Airblader/i3)
 
