@@ -30,6 +30,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'itchyny/lightline.vim'
 Plug 'origamiman72/vim-coloresque'
 Plug 'joshdick/onedark.vim'
+Plug 'kylelaker/riscv.vim'
+Plug 'Konfekt/FastFold'
+Plug 'tmhedberg/SimpylFold'
 call plug#end()
 " NERDTree on ctrl+n
 let NERDTreeShowHidden=1
@@ -58,6 +61,7 @@ set tabstop=4
 set foldmethod=syntax
 set signcolumn=no
 set pumheight=20
+set foldlevel=99
 " Note, perl automatically sets foldmethod in the syntax file
 autocmd Syntax c,cpp,vim,xml,html,xhtml setlocal foldmethod=syntax
 autocmd Syntax c,cpp,vim,xml,html,xhtml,perl normal zR
