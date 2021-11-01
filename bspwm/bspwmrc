@@ -1,17 +1,5 @@
 #! /bin/bash
 
-#  ____  _   _
-# |  _ \| \ | | Pradyun Narkadamilli
-# | |_) |  \| | https://pradyungn.tech
-# |  __/| |\  | MIT License
-# |_|   |_| \_| Copyright 2020 Pradyun Narkadamilli
-
-# My bspwm configuration on my personal machine
-
-# autorandr --change
-
-# nitrogen --restore
-
 bspc config top_padding 0
 
 bspc config border_width         3
@@ -35,12 +23,7 @@ bspc rule -a feh state=floating
 bspc rule -a Discord desktop=^10 follow=on
 bspc rule -a Telegram desktop=^10 follow=on
 bspc rule -a Slack desktop=^10 follow=on
-# bspc rule -a Matplotlib state=floating
-# bspc rule -a Nitrogen state=tiled
-# bspc rule -a floating_term state=floating center=true rectangle=640x480+0+0
-# bspc rule -a Emacs state=floating center=true rectangle=640x800+0+0
-bspc rule -a Emacs state=tiled
-# bspc rule -a notion-nativefier-46aee8 state=floating center=true rectangle=1200x600+0+0
+spc rule -a Emacs state=tiled
 bspc rule -a Zathura state=tiled
 bspc rule -a rofi border=on
 
@@ -105,3 +88,18 @@ polybar-msg cmd quit
 for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
     MONITOR=$m polybar -c ~/.config/polybar/config.ini main &
 done
+
+# Set LED's
+liquidctl initialize
+~/lights.sh
+
+# Turquoise + Blue
+# liquidctl set led color super-fixed 1622e9 1333e8 1044e7 0e55e7 0b66e6 0877e5 0877e5 0588e4 0399e3 00aae2 1811ea 1b00eb 1b00eb 1b00eb 1b00eb 1b00eb 1b00eb 1b00eb
+# Blue + Purple
+# liquidctl set led color covering-marquee 0410ef a504ef --direction backward --speed slowest
+
+# Start spotify daemon
+spotifyd -U "~/Documents/misc/spotify-creds.sh --user" -P "~/Documents/misc/spotify-creds.sh --passw" -b pulseaudio --volume-normalisation -B 320
+
+syncthing --no-browser
+

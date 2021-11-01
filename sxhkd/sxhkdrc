@@ -7,16 +7,24 @@ super + Return
 super + shift + Return
   kitty --class floating_term
 
+# Dismiss notification
+ctrl + space
+  dunstctl close
+
+# Dismiss notification
+ctrl + Escape
+  dunstctl history-pop
+
 # program launcher
 super + d
-  rofi -modi run,drun -show drun -display-drun 'Applications' -location 1 -xoffset 12 -yoffset 48 -line-padding 4 -columns 2 -width 99 -lines 5 -padding 25 -hide-scrollbar -show-icons -drun-icon-theme 'Papirus' -font 'Iosevka Nerd Font 9'
+  rofi -modi run,drun -show drun -display-drun 'Applications' -location 1 -xoffset 12 -yoffset 48 -line-padding 4 -columns 2 -width 99 -lines 5 -padding 25 -hide-scrollbar -show-icons -drun-icon-theme 'Papirus' -font 'Iosevka Nerd Font 9' -theme slate
 
 # Window switch
 super + w
-  rofi -modi window -show window -hide-scrollbar -padding 20 -yoffset -300 -line-padding 4 -width 25 -lines 6 -font 'Iosevka Nerd Font 9'
+  rofi -modi window -show window -hide-scrollbar -padding 20 -yoffset -300 -line-padding 4 -width 25 -lines 6 -font 'Iosevka Nerd Font 9' -theme slate
 
 # make sxhkd reload its configuration files:
-super + Escape
+super + shift + Escape
 	pkill -USR1 -x sxhkd && sxhxd
 
 # quit/restart bspwm
@@ -163,14 +171,8 @@ super + v
 super + shift + v
   codium
 
-super + shift + d
-  discord
-
 #super + ctrl + v
 #  kitty -e vim
-
-super + z
-  zathura
 
 #Jsuper + e
 #  emacs
@@ -208,3 +210,22 @@ XF86AudioLowerVolume
 
 super + shift + b
   systemctl suspend
+
+super + shift + d
+  dunstctl set-paused toggle & notify-send "Notifications Enabled"
+
+# add to tabbed container
+ctrl + alt + {h,j,k,l}
+    tabc attach $(bspc query -N -n) {$(bspc query -N -n west),$(bspc query -N -n south),$(bspc query -N -n north),$(bspc query -N -n east)}
+
+# create/remove from tabbed container
+super + z 
+    id=$(bspc query -N -n); \
+    [[ "$(tabc printclass $id)" == "tabbed" ]] \
+    && tabc detach $id \
+    || tabc create $id 
+
+# toggle autoattach in tabbed container
+super + shift + z 
+    tabc autoattach $(bspc query -N -n) 
+

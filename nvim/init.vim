@@ -33,6 +33,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'kylelaker/riscv.vim'
 Plug 'Konfekt/FastFold'
 Plug 'tmhedberg/SimpylFold'
+Plug 'gerw/vim-latex-suite'
 call plug#end()
 " NERDTree on ctrl+n
 let NERDTreeShowHidden=1
@@ -67,6 +68,9 @@ autocmd Syntax c,cpp,vim,xml,html,xhtml setlocal foldmethod=syntax
 autocmd Syntax c,cpp,vim,xml,html,xhtml,perl normal zR
 nnoremap ss i<space><esc>
 inoremap jj <Esc>
+nnoremap m 10j
+nnoremap M 10k
+vmap <S-Y> :!xclip -f -sel clip<CR>
 
 let g:vim_markdown_folding_disabled = 1
 
